@@ -1,0 +1,288 @@
+
+/* ✅✅✅✅✅✅✅✅✅ */
+
+/* Media Query For 360px  */
+
+
+@media (max-width:600px){
+
+    /* Navbar For 360 px  */
+    
+    .navtext {
+        font-size: 1.6rem;
+        
+      }
+      
+      .navtext:hover {      
+        font-size: 1.8rem;
+      }
+      
+        .hideOnMobile{
+            display: none;
+        }
+    
+    .menu-btn{
+        display: block;
+        margin-top: 1vh;
+        margin-right: 5vw;
+    }
+
+    
+    .sidebar{
+        width: 60vw;
+    }
+    
+    .hide-button{
+        margin-top: 4vh;
+    margin-left:35vw;
+    
+    }
+    
+    .sidebar a{
+        font-size:1.5rem;
+    }
+    
+/* Home Section For 360 px*/
+
+    .maintext1{
+        font-size:3rem;
+    }
+    
+    .maintext2{
+        margin-top: 1vh;
+        font-size:3.4rem;
+    }
+    
+    .maintext3{
+        font-size:1rem;
+        margin-bottom: 4vh;
+    }
+    
+    .mainimage img{
+        height: 40vh;
+        margin-bottom: 1.5vh;
+        margin-left: 9vw;
+        position:sticky;
+    }
+    
+    .btn{
+        height:7vh;
+        width:44vw;
+        font-size: 1.5rem;
+        border-radius: 1.6rem;
+        margin-top: 0.7vh;
+        margin-left: 21vw;
+    }
+    
+    .soicalmediaicons{
+     display: flex;
+     justify-content:center;
+     margin-right: 20vw;
+     gap:5vw;
+     margin-bottom: 3.5vh;
+     position: sticky;
+    }
+    
+    
+    .soicalmediaicons img{
+        height:5vh;
+    }
+    
+    /* About  Section For 360 px*/
+    
+    .aboutheading{
+        font-size:3.1rem;
+    }
+    
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .aboutimage img{
+        height: 68vh;
+        margin-top: 8vh;
+        margin-left: 11vw;
+    }
+    
+    .abouttext1{
+        font-size: 2.5rem;
+        margin-left: 17vw;
+        
+    }
+    
+    
+    .abouttext2{
+        font-size:0.9rem;
+        margin-left: 11vw;
+        margin-top:1vh;
+    }
+    
+    .abouttext3{
+        font-size: 1rem;
+        margin-left: 4vw;
+        word-wrap: break-word;
+    }
+    
+    .abouttext4{
+        margin-top: 4vh;
+        font-size:1.1rem;
+        margin-left: 4vw;
+    }
+    
+    
+    .abouttext5{
+        font-size: 1.1rem;
+        margin-left: 4vw;
+    }
+    
+    .githubbtn{
+        height: 7vh;
+        width: 39vw;
+        font-size: 1.2rem;
+        border: none;
+        margin-bottom: 5vh;
+        margin-left: 30vw;
+        border-radius:0.5rem;
+    }
+    
+    /* Skill  Section For 360 px*/
+    
+    .skillheading p{
+        font-size: 3.5rem;
+        text-align: center;
+        margin-left:5vw;
+    }
+    
+    .skillborder{
+    height: 55vh;
+    width: 78vw;
+    margin-left: 12vw;
+
+    }
+    
+    .skill_image_section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .skillcharacter img{
+        height: 35vh;
+        
+    }
+    
+    
+    .skillsimages img{
+    margin-left: 4vw;
+        height: 6vw;
+      
+    } 
+    
+    /* Projects  Section For 360 px*/
+    
+    .projectheading{
+        font-size: 3.3rem;
+        margin-left: 5vw;
+    }
+    
+    .projectheading img{
+        height: 9.2vh;
+    }
+    
+    .projectsimages{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .project_programmer img{
+        height:46vh;
+        margin-top: 4vh;
+        margin-right: 130vw;
+    }
+    
+    .projectimage_1 img{
+    height: 17vh;
+    margin-right: 140vw;
+    }
+    
+    
+.projectimage_1 p{
+    margin-top: 1vh;
+    font-size: 1rem;   
+    margin-right: 140vw;
+}
+
+/* Contact  Section For 360 px*/
+    
+    .contactheading{
+        font-size:2.1rem;
+        text-align: center;
+        
+    }
+    
+    
+    .form_container{
+        height:45vh;
+        width: 84%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10vw;
+        margin-bottom: 5vh;
+        box-shadow: 0 0 0.5rem black;
+    }
+    
+    .contact_image img{
+    display: block;    
+    height: 18vh;
+    margin-left: 6.7vw;
+    
+    }
+    
+    
+    .contactform pre{
+        display: none;
+        
+    }
+    
+    input, textarea {
+        width:72%;
+        margin-right: 28vw;
+    }
+    
+    
+    .sendbtn .submitbtn {
+        width:50%;
+        margin-left: 10vw;
+        
+    }
+    
+
+    /* Footer Section For 360 px*/
+    
+    
+    .footerheading{
+        font-size:2.2rem;
+        text-align: center;
+    }
+    
+    
+    .footerlast {
+        font-size: 0.8rem;
+        font-family: poppins;
+        text-align: center;
+        
+        
+    }
+    
+    .footerlast img{
+        padding-top: 0.2vh;
+        height:1.8vw;
+    }
+    
+}
+
+
