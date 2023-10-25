@@ -1,12 +1,10 @@
 
-/* ✅✅✅✅✅✅✅✅✅ */
-
-/* Media Query For 360px  */
+/* Media Query For Mobile  ✅ */
 
 
 @media (max-width:600px){
 
-    /* Navbar For 360 px  */
+    /* Navbar For Mobile  */
     
     .navtext {
         font-size: 1.6rem;
@@ -42,7 +40,7 @@
         font-size:1.5rem;
     }
     
-/* Home Section For 360 px*/
+/* Home Section For Mobile */
 
     .maintext1{
         font-size:3rem;
@@ -61,23 +59,23 @@
     .mainimage img{
         height: 40vh;
         margin-bottom: 1.5vh;
-        margin-left: 9vw;
+        margin-left: 28vw;
         position:sticky;
     }
     
     .btn{
         height:7vh;
-        width:44vw;
-        font-size: 1.5rem;
+        width:28vw;
+        font-size: 1rem;
         border-radius: 1.6rem;
         margin-top: 0.7vh;
-        margin-left: 21vw;
+        margin-left: 37vw;
     }
     
     .soicalmediaicons{
      display: flex;
      justify-content:center;
-     margin-right: 20vw;
+     margin-right: 15vw;
      gap:5vw;
      margin-bottom: 3.5vh;
      position: sticky;
@@ -88,7 +86,7 @@
         height:5vh;
     }
     
-    /* About  Section For 360 px*/
+    /* About  Section For Mobile */
     
     .aboutheading{
         font-size:3.1rem;
@@ -103,7 +101,8 @@
     .aboutimage img{
         height: 68vh;
         margin-top: 8vh;
-        margin-left: 11vw;
+        margin-left: 28vw;
+        position: sticky;
     }
     
     .abouttext1{
@@ -147,7 +146,7 @@
         border-radius:0.5rem;
     }
     
-    /* Skill  Section For 360 px*/
+    /* Skill  Section For Mobile */
     
     .skillheading p{
         font-size: 3.5rem;
@@ -170,7 +169,7 @@
     
     .skillcharacter img{
         height: 35vh;
-        
+        margin-left: 17.5vw;
     }
     
     
@@ -180,7 +179,7 @@
       
     } 
     
-    /* Projects  Section For 360 px*/
+    /* Projects  Section For  Mobile */
     
     .projectheading{
         font-size: 3.3rem;
@@ -188,7 +187,8 @@
     }
     
     .projectheading img{
-        height: 9.2vh;
+        margin-top: 1vh;
+        height: 12.2vh;
     }
     
     .projectsimages{
@@ -198,24 +198,25 @@
     
     
     .project_programmer img{
-        height:46vh;
+        height:52vh;
         margin-top: 4vh;
-        margin-right: 130vw;
+        margin-left: 15vw;
+        margin-right: 110vw;
     }
     
     .projectimage_1 img{
-    height: 17vh;
-    margin-right: 140vw;
+    height: 28vh;
+    margin-right: 110vw;
     }
     
     
 .projectimage_1 p{
     margin-top: 1vh;
     font-size: 1rem;   
-    margin-right: 140vw;
+    margin-right: 110vw;
 }
 
-/* Contact  Section For 360 px*/
+/* Contact  Section For Mobile */
     
     .contactheading{
         font-size:2.1rem;
@@ -237,7 +238,7 @@
     
     .contact_image img{
     display: block;    
-    height: 18vh;
+    height: 26vh;
     margin-left: 6.7vw;
     
     }
@@ -256,22 +257,314 @@
     
     .sendbtn .submitbtn {
         width:50%;
-        margin-left: 10vw;
+        margin-left: 15vw;
         
     }
     
 
-    /* Footer Section For 360 px*/
+    /* Footer Section For Mobile */
     
     
     .footerheading{
-        font-size:2.2rem;
+        font-size:2rem;
         text-align: center;
     }
     
     
     .footerlast {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        font-family: poppins;
+        text-align: center;
+    }
+    
+    .footerlast img{
+        padding-top: 0.7vh;
+        height:1.4vw;
+    }
+
+    
+/* Here I complete the Media Query For Mobile  */
+
+}
+
+/* Media Query For Tablet  ✅ */
+
+
+@media (max-width: 769px) and (min-width: 600px) { 
+
+
+    /* Navbar For Tablet px  */
+    
+    .navtext {
+        font-size: 1.6rem;
+        
+      }
+      
+      .navtext:hover {      
+        font-size: 1.8rem;
+      }
+      
+        .hideOnMobile{
+            display: none;
+        }
+    
+    .menu-btn{
+        display: block;
+        margin-top: 1vh;
+        margin-right: 5vw;
+    }
+
+    
+    .sidebar{
+        width: 60vw;
+    }
+    
+    .hide-button{
+        margin-top: 4vh;
+    margin-left:35vw;
+    
+    }
+    
+    .sidebar a{
+        font-size:1.5rem;
+    }
+    
+/* Home Section For Tablet */
+
+    .maintext1{
+        font-size:3rem;
+    }
+    
+    .maintext2{
+        margin-top: 1vh;
+        font-size:3.4rem;
+    }
+    
+    .maintext3{
+        font-size:1.2rem;
+        margin-bottom: 4vh;
+    }
+    
+    .mainimage img{
+        height: 40vh;
+        margin-bottom: 1.5vh;
+        margin-left: 30vw;
+        position:sticky;
+    }
+    
+    .btn{
+        height:7vh;
+        width:25vw;
+        font-size: 1.5rem;
+        border-radius: 1.6rem;
+        margin-top: 0.7vh;
+        margin-left: 32vw;
+    }
+    
+    .soicalmediaicons{
+     display: flex;
+     justify-content:center;
+     margin-right: 20vw;
+     gap:5vw;
+     margin-bottom: 3.5vh;
+     position: sticky;
+    }
+    
+    
+    .soicalmediaicons img{
+        height:5vh;
+    }
+    
+    /* About  Section For  Tablet */
+    
+    .aboutheading{
+        font-size:3.7rem;
+    }
+    
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .aboutimage img{
+        height: 85vh;
+        margin-top: 8vh;
+        margin-left: 34vw;
+    }
+    
+    .abouttext1{
+        font-size:3.3rem;
+        margin-left: 27vw;
+        
+    }
+    
+    
+    .abouttext2{
+        font-size:1.2rem;
+        margin-left: 23vw;
+        margin-top:1vh;
+    }
+    
+    .abouttext3{
+        font-size: 1rem;
+        margin-left: 2vw;
+        padding-right: 0.7rem;
+        word-wrap: break-word;
+    }
+    
+    .abouttext4{
+        margin-top: 4vh;
+        font-size:1.2rem;
+        margin-left: 4vw;
+    }
+    
+    
+    .abouttext5{
+        font-size: 1.2rem;
+        margin-left: 4vw;
+    }
+    
+    .githubbtn{
+        height: 7.5vh;
+        width: 39vw;
+        font-size:1.9rem;
+        border: none;
+        margin-bottom: 5vh;
+        margin-left: 30vw;
+        border-radius:0.7rem;
+    }
+    
+    /* Skill  Section For Tablet*/
+    
+    .skillheading p{
+        font-size: 4rem;
+        text-align: center;
+        margin-left:5vw;
+    }
+    
+    .skillborder{
+    height: 65vh;
+    width: 78vw;
+    margin-left: 12vw;
+    
+    
+
+    }
+    
+    .skill_image_section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .skillcharacter img{
+        height: 40vh;
+        margin-left: 20vw;
+        
+    }
+    
+    
+    .skillsimages img{
+    margin-left: 4.5vw;
+        height: 7vw;
+        
+      
+    } 
+    
+    /* Projects  Section For Tablet */
+    
+    .projectheading{
+        font-size:4rem;
+        margin-left: 5vw;
+    }
+    
+    .projectheading img{
+        margin-top: 2.7vh;
+        height: 13vh;
+    }
+    
+    .projectsimages{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .project_programmer img{
+        height:55vh;
+        margin-top: 4vh;
+        margin-right: 90vw;
+        margin-left: 30vw;
+    }
+    
+    .projectimage_1 img{
+    height: 36vh;
+    margin-right: 70vw;
+    }
+    
+    
+.projectimage_1 p{
+    margin-top: 1vh;
+    font-size: 1.4rem;   
+    margin-right: 70vw;
+}
+
+/* Contact  Section For Tablet */
+    
+    .contactheading{
+        font-size:3.5rem;
+        text-align: center;
+        
+    }
+    
+    
+    .form_container{
+        height:45vh;
+        width: 84%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 10vw;
+        margin-bottom: 5vh;
+        box-shadow: 0 0 0.5rem black;
+    }
+    
+    .contact_image img{
+    display: block;    
+    height: 30vh;
+    margin-left: 6.7vw;
+    
+    }
+    
+    
+    .contactform pre{
+        display: none;
+        
+    }
+    
+    input, textarea {
+        width:72%;
+        margin-right: 28vw;
+    }
+    
+    
+    .sendbtn .submitbtn {
+        width:46%;
+        margin-left: 18vw;
+    }
+    
+
+    /* Footer Section For Tablet */
+    
+    
+    .footerheading{
+        font-size:3rem;
+        text-align: center;
+    }
+    
+    
+    .footerlast {
+        font-size: 1rem;
         font-family: poppins;
         text-align: center;
         
@@ -280,9 +573,160 @@
     
     .footerlast img{
         padding-top: 0.2vh;
-        height:1.8vw;
+        height:1.6vw;
     }
+
     
+/* Here I complete the Media Query For Tablet  */
+
 }
 
 
+/* Media Query For Laptop ✅ */
+
+@media(min-width:832px){
+
+
+    /* Home Section For Laptop */
+
+    .maintext1{
+        padding-left: 7vw;
+        font-size: 3rem;
+    }
+
+    .maintext2{
+        padding-left: 7vw;
+        font-size: 2.7rem;
+    }
+
+
+    .maintext3{
+        margin-top: 4vh;
+        padding-left: 8vw;
+        font-size: 1.1rem;
+    }
+
+    .mainimage img{
+        height: 28vw;
+margin-left: 5vw;
+        
+    }
+
+    .btn{
+        margin-left: 17vw;
+        margin-bottom: 2vh;
+        font-size: 1.2rem;
+        width: 16vw;
+        height: 7.5vh;
+        
+        
+    }
+
+
+    .soicalmediaicons{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3vh;
+    margin-left: 17vw;
+    margin-bottom: 2vh;
+    gap: 2.2vw;
+    }
+    .soicalmediaicons img{
+        
+        height: 5.8vh;
+    }
+
+    /* about section For Laptop */
+
+    .aboutheading{
+        margin-left:12vw;
+    }
+
+    .aboutimage img{
+        height: 80vh;
+    }
+
+    .githubbtn{
+        font-size: 1.3rem;
+        width: 20vw;
+        height: 8vh;
+        
+    }
+
+
+    /* skills section For Laptop  */
+
+    .skillborder{
+        margin-top: 4vh;
+        background-color: rgb(128, 12, 218);
+        border: 0.2rem solid rgb(128,12,218);
+        border-radius: 1rem;
+        height: 75vh;
+        width: 90vw;
+        margin-left: 4vw;
+        padding-bottom: 8vh;
+        
+    }
+
+    .skill_image_section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+    .skillcharacter img{
+        height: 57vh;
+        
+    }
+
+
+    .skillsimages {
+        display: flex;
+        flex-direction: row;
+        padding-top: 8vh;
+        
+        
+        
+    }
+
+    .skillsimages img{
+        height: 12vh;
+        background-color:lightcyan;
+        border-radius: 0.5rem;
+        
+    } 
+    
+    /* project section For Laptop */
+
+    .projectimage_1 img{
+    margin-left: 8vw;
+    }
+
+    .projectimage_1 p{
+        margin-top: 1vh;
+        margin-left: 8vw;
+    }
+    
+    /* contact section For Laptop */
+
+
+
+    .form_container{
+        margin-bottom: 5vh;
+    }
+
+
+    .sendbtn .submitbtn {
+        width: 24%;    
+        margin-left:15vw;
+    }
+
+    /* footer section For Laptop */
+
+/* No Changes Required in Footer Section  */
+
+
+
+}
