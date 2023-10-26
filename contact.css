@@ -18,92 +18,105 @@ body{
     overflow-x: hidden;
 }
 
-
 .navbar {
-    height: 13vh;
-    width: 100vw;
-    box-shadow: 0 0 0.3vw black;
-    background-color: #85FFBD;
+  height: 12vh;
+  width: 100%;
+  background-color: #85FFBD;
   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  
   }
-  
+
   .navtext {
-    color: black;
-    padding-left: 7vw;
-    font-family:Outfit;
-    font-size: 1.3rem;
-    font-family: poppins,sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+  color: black;
+  padding-left: 7vw;
+  font-family:Outfit;
+  font-size: 1.3rem;
+  font-family: poppins,sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
   }
-  
+
   .navtext:hover {
       color:rgb(255,124,3);
-  
-    font-size: 1.4rem;
+
+  font-size: 1.4rem;
   }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-    padding-right: 1.5vw;
-    flex-wrap: wrap;
-  }
-  
-  
-  .navlinks ul a {
-    font-family: poppins,sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
-    text-decoration: none;
-    margin: 0 2.5vw;
-    color: black;
-    font-weight: 500;
-  }
-  
-  .navlinks ul a:hover {
-    color: rgb(18, 18, 62);
-  
-    font-size: 1.3rem;
-  }
-  
-  
+
   .sidebar{
       position: fixed;
       top: 0;
       right: 0;
       height: 100vh;
-      width: 15.3rem;
+      width: 16rem;
       z-index: 999;
-      background-color: rgba(255, 255, 255, 0.517);
-      backdrop-filter: blur(0.7rem);
-  box-shadow: 0 0 1rem black;
-  display:none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 0.502);
+      backdrop-filter: blur(1rem);
+      /* box-shadow: -0.5rem  0 -0.5rem rgba(0, 0, 0, 0.2) ; */
+
+      box-shadow: 0 0 5rem blue;
+      display:none;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
       
   }
-  
+
   .sidebar li{
       width: 100%;
-line-height: 2rem;  
+      
   }
-  
+
+  .hide-button{
+      margin-top:3vh;
+      margin-left: 50vw;
+  }
+
   .sidebar a{
-      width: 100%;
+      width:100%;
+      text-decoration: none;
+      font-family: poppins;
+      color: black;
+  margin-left:2vw;
+  font-size: 1.2rem;
+  padding: 1rem;
+  line-height:2.5rem;
   }
-  
 
-  .navclosesvg{
-    margin-left: 15vw;
-    margin-top: 3vh;
-}
 
+
+
+  nav ul {
+  display:flex;
+  list-style: none;
+  padding-right: 1.5vw;
+  flex-wrap: wrap;
+  }
+
+
+  .navlinks  a {
+  font-family: poppins,sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0 2.5vw;
+  color: black;
+  font-weight: 500;
   
+  }
+
+  .navlinks  a:hover {
+  color: rgb(18, 18, 62);
+
+  font-size: 1.3rem;
+  }
+
+  .menu-btn{
+      display:none;
+  }
+
 
 .contact_container{
   height: 99.7vh;
@@ -192,4 +205,182 @@ input, textarea {
   border-radius:0.5rem;
   margin-left:18vw;
 cursor: pointer;
+}
+
+
+@media (max-width:600px){
+
+  /* Navbar For Mobile  */
+  
+  .navtext {
+      font-size: 1.6rem;
+      
+    }
+    
+    .navtext:hover {      
+      font-size: 1.8rem;
+    }
+    
+      .hideOnMobile{
+          display: none;
+      }
+  
+  .menu-btn{
+      display: block;
+      margin-top: 1vh;
+      margin-right: 5vw;
+  }
+
+  
+  .sidebar{
+      width: 60vw;
+  }
+  
+  .hide-button{
+      margin-top: 4vh;
+  margin-left:35vw;
+  
+  }
+  
+  .sidebar a{
+      font-size:1.5rem;
+  }
+
+
+/* Contact  Section For Mobile */
+    
+.contactheading{
+  font-size:2.1rem;
+  text-align: center;
+  
+}
+
+
+.form_container{
+  height:50vh;
+  width: 84%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+  box-shadow: 0 0 0.5rem black;
+}
+
+.contact_image img{
+display: block;    
+height: 26vh;
+width: auto;
+margin-left: 6.7vw;
+
+}
+
+
+.contactform pre{
+  display: none;
+  
+}
+
+input, textarea {
+  width:72%;
+  margin-right: 28vw;
+}
+
+
+.sendbtn .submitbtn {
+  width: auto;
+  margin-left: 20vw;
+  
+}
+
+}
+
+@media (max-width: 769px) and (min-width: 600px) { 
+
+
+  /* Navbar For Tablet px  */
+  
+  .navtext {
+      font-size: 1.6rem;
+      
+    }
+    
+    .navtext:hover {      
+      font-size: 1.8rem;
+    }
+    
+      .hideOnMobile{
+          display: none;
+      }
+  
+  .menu-btn{
+      display: block;
+      margin-top: 1vh;
+      margin-right: 5vw;
+  }
+
+  
+  .sidebar{
+      width: 60vw;
+  }
+  
+  .hide-button{
+      margin-top: 4vh;
+  margin-left:35vw;
+  
+  }
+  
+  .sidebar a{
+      font-size:1.5rem;
+  }
+ 
+  
+/* Contact  Section For Tablet */
+    
+.contactheading{
+  font-size:3.5rem;
+  text-align: center;
+  
+}
+
+
+.form_container{
+  height:60vh;
+  width: 84%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+  box-shadow: 0 0 0.5rem black;
+}
+
+.contact_image img{
+display: block;    
+height: 35vh;
+width: auto;
+margin-left: 6.7vw;
+
+}
+
+.contactform pre{
+  display: none;
+  
+}
+
+input, textarea {
+  width:72%;
+  margin-right: 28vw;
+}
+
+
+.sendbtn .submitbtn {
+  width: auto;
+  margin-left: 28vw;
+}
+
+  
+
+
+
 }
