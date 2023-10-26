@@ -30,9 +30,8 @@
     }
 
     .navbar {
-    height: 13vh;
+    height: 12vh;
     width: 100%;
-    box-shadow: 0 0 0.3vw black;
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 
@@ -169,16 +168,15 @@
     }
 
     .mainimage img{
-        height: 28vw;
-        
-        
+        height: 32vw;
+width: auto;
     }
 
     .btn{
         margin-left: 11vw;
         margin-bottom: 2vh;
         font-size: 1.3rem;
-        width: 12vw;
+        width: 15%;
         height: 7.5vh;
         border: none;
         background-color:rgb(37,6,173) ;
@@ -207,6 +205,7 @@
         background-color: white;
         border-radius: 1.5rem;
         height: 5.5vh;
+        width: auto;
     }
 
     /* about section started */
@@ -243,15 +242,15 @@
 
     .aboutimage img{
         height: 73vh;
-        
+        width: auto;
         margin-bottom: 11vh;
         margin-left: 2vw;
         border-radius: 2.5rem;
-        box-shadow: 0 0 2rem red;   
+        box-shadow: 0 0 3.5rem red;   
     }
 
     .aboutimage img:hover{
-        box-shadow: 0 0 2rem blue;
+        box-shadow: 0 0 3.5rem blue;
     }
 
     .abouttext1{
@@ -293,8 +292,8 @@
     .githubbtn{
         margin-top: 11vh;
         margin-left: 12vw;
-        font-size: 1.3rem;
-        width: 12vw;
+        font-size: 1.2rem;
+width: 23%;
         height: 8vh;
         border: none;
         background-color:rgb(234, 32, 32);
@@ -342,18 +341,22 @@
         width: 90vw;
         margin-left: 4vw;
         margin-bottom: 8vh;
+        padding-bottom: 2vh;
         
     }
 
     .skill_image_section{
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: start;
         flex-wrap: wrap;
     }
 
 
     .skillcharacter img{
-        height: 70vh;
+        height: 50vh;
+        width: auto;
+        margin-left: 30vw;
     }
 
 
@@ -367,10 +370,12 @@
     }
 
     .skillsimages img{
-        height: 12vh;
+        height: 9vh;
+        width: auto;
         background-color:lightcyan;
         border-radius: 0.5rem;
-        margin: 1rem;
+        margin:1vw;
+        margin-left: 10vw;
     } 
     
     /* project section started */
@@ -400,6 +405,8 @@
 
     .projectheading img{
         height: 13vh;
+        width: auto;
+        margin-top: 2.2vh;
     }
 
     .projectsimages{
@@ -412,11 +419,13 @@
 
     .project_programmer img{
         height: 65vh;
+        width: auto;
     }
 
     .projectimage_1 img{
         padding-top: 8vh;
         height: 45vh;
+        width: auto;
     border-radius: 1.5rem;
     margin-left: 12vw;
     }
@@ -431,6 +440,7 @@
         border-radius: 2vh;
         margin-bottom: 8vh;   
         margin-left: 12vw;
+        margin-top: 1vh;
     }
     
     /* contact section started here */
@@ -468,11 +478,12 @@
         border-radius: 1rem;
         margin-left: 17vw;
         box-shadow: 0 0 0.2rem black;
-        
+        margin-bottom: 5vh;
     }
 
     .contact_image img{
         height: 45vh;
+        width: auto;
         margin-left: 6vw;
         
     }
@@ -484,8 +495,6 @@
     form{
         width:45vw;
         margin-left:9vw;
-        margin-top: 5vh;
-            
     }
     
     input, textarea {
@@ -506,11 +515,11 @@
     }
 
     .sendbtn .submitbtn {
-        width: 16%;
+width: auto;
         background-color: blue;
         color: white;
         border: none;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-family: poppins,sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         border-radius:0.5rem;
         margin-left:18vw;
@@ -521,12 +530,13 @@
 
     .footer_container{
         width: 100%;
-        height: 100%;
+        height: 30%;
         background-color: rgb(18, 18, 62);
         box-sizing: border-box;
     }
 
     .footerheading{
+        
         font-size: 2.5rem;
         text-align: center;
         font-family: poppins;
@@ -547,5 +557,5 @@
 
     .footerlast img{
         padding-top: 0.2vh;
-        height:1.1vw;
+        height:0.9vw;
     }
