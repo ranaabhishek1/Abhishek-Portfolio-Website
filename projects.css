@@ -219,15 +219,21 @@ margin-left: 12vw;
 
   
     /* Projects  Section For  Mobile */
+
     
-    .projectheading{
+    .projects_container{
+      width: 100%;
+  }
+
+
+  .projectheading{
       font-size: 3.3rem;
       margin-left: 5vw;
   }
   
   .projectheading img{
       margin-top: 1vh;
-      height: 12.2vh;
+      height: 9vh;
       width: auto;
   }
   
@@ -238,26 +244,26 @@ margin-left: 12vw;
   
   
   .project_programmer img{
-      height:52vh;
+      height:50vh;
       width: auto;
       margin-top: 4vh;
-      margin-left: 20vw;
-      margin-right: 70vw;
+      
+      margin-right: 90vw;
   }
   
   .projectimage_1 img{
-  height: 28vh;
+  height: 20vh;
   width: auto;
-  margin-right: 70vw;
+  margin-right: 100vw;
   }
   
   
 .projectimage_1 p{
   margin-top: 1vh;
   font-size: 1rem;   
-  margin-right: 70vw;
+  margin-right: 100vw;
 }
-
+  
 }
 
 
