@@ -182,90 +182,6 @@ body{
 
 /* project section started */
 
-.projects_container{
-  height:100%;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: rgb(0,32,87);
-  box-shadow: 0 0 0.4vw black;   
-  overflow: hidden;
-}
-
-.projectheading{
-  font-size: 3.5rem;
-  font-family:poppins;
-  font-weight:700;
-  text-align: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding-top: 3vh;
-  text-shadow: 0.1rem 0 green;
-}
-
-.projectheading img{
-  height: 13vh;
-}
-
-.projectsimages{
-  display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-
-}
-
-.project_programmer img{
-  height: 65vh;
-}
-
-.projectimage_1 img{
-  padding-top: 8vh;
-  height: 45vh;
-border-radius: 1.5rem;
-margin-left: 12vw;
-}
-
-.projectimage_1 p{
-  font-size: 1.3rem;
-  font-weight: 550;
-  font-family: poppins;
-  color: black;
-  text-align: center;
-  background-color: yellow;
-  border-radius: 2vh;
-  margin-bottom: 8vh;   
-  margin-left: 12vw;
-}
-
-/* contact section started here */
-
-
-.contact_container{
-  height: 99.7vh;
-  width: 99.9vw;
-  box-sizing: border-box;
-  background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-
-    
-  box-shadow: 0 0 0.4vw black;      
-  overflow:hidden;
-} 
-
-.contactheading{
-  font-size: 3.5rem;
-  font-family:poppins;
-  font-weight:700;
-  text-align: center;
-  margin-top: 5vh;
-  color: white;
-  text-shadow: 0.2rem 0.2rem blue;
-}
-
-
 
 @media (max-width:600px){
 
@@ -305,41 +221,44 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
       font-size:1.5rem;
   }
 
-/* Skill  Section For Mobile */
+
+  .skills_container{
+    width: 100%;
+        }
     
-.skillheading p{
-  font-size: 3.5rem;
-  text-align: center;
-  margin-left:5vw;
-}
-
-.skillborder{
-height: 55vh;
-width: 78vw;
-margin-left: 12vw;
-
-}
-
-.skill_image_section{
-  display: flex;
-  flex-direction: column;
-}
-
-
-.skillcharacter img{
-  height: 35vh;
-  width: auto;
-  margin-left: 17.5vw;
-}
-
-
-.skillsimages img{
-margin-left: 4vw;
-  height: 6vw;
-  width: auto;
-
-} 
-
+        .skillheading p{
+            font-size: 3.5rem;
+            text-align: center;
+            margin-left:5vw;
+        }
+        
+        .skillborder{
+        height: 55vh;
+        width: 78vw;
+        margin-left: 12vw;
+    
+        }
+        
+        .skill_image_section{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        
+        .skillcharacter img{
+            height: 35vh;
+            width: auto;
+            margin-left: 10vw;
+        }
+        
+        
+        .skillsimages img{
+        margin-left: 4vw;
+            height: 6.5vw;
+            width: auto;
+          
+        } 
+    
 }
 
 
@@ -421,9 +340,6 @@ margin-left: 4vw;
   }
 
 
-
 }
-
-
 
 
